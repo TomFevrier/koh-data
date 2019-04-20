@@ -8,6 +8,10 @@ body {
 	background-color: papayawhip;
 }
 
+hr {
+	color: #808080;
+}
+
 img {
 	display: block;
 	margin: 0 auto;
@@ -22,11 +26,12 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin: 0;
 }
 
 h3 {
+	font-size: 1.3em;
 	font-weight: bolder;
 }
 
@@ -55,8 +60,32 @@ audio {
 	display: none;
 }
 
+iframe {
+	background-color: papayawhip;
+}
+
+#signature {
+	text-align: center;
+	font-weight: bold;
+}
+
+#method {
+	width: 60%;
+	margin: 0 auto;
+	color: #808080;
+}
+
+#method h2 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
 @media screen and (max-width: 640px) {
 	#content {
+		width: 100%;
+	}
+
+	#method {
 		width: 100%;
 	}
 }

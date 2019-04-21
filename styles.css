@@ -31,8 +31,8 @@ h2 {
 }
 
 h3 {
+	font-family: 'Source Sans Pro Black';
 	font-size: 1.3em;
-	font-weight: bolder;
 }
 
 p {
@@ -64,6 +64,30 @@ iframe {
 	background-color: papayawhip;
 }
 
+#funFacts {
+	width: 60%;
+	margin: 0 auto;
+}
+
+summary {
+	display: block;
+	cursor: pointer;
+}
+
+summary h3 {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+summary h3:after {
+	content: " ▼";
+}
+
+details[open] summary h3:after {
+    content: " ▲";
+}
+
 #signature {
 	text-align: center;
 	font-weight: bold;
@@ -82,6 +106,10 @@ iframe {
 
 @media screen and (max-width: 640px) {
 	#content {
+		width: 100%;
+	}
+
+	#funFacts {
 		width: 100%;
 	}
 

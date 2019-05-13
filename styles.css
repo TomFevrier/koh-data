@@ -75,6 +75,10 @@ summary {
 	cursor: pointer;
 }
 
+summary::-webkit-details-marker {
+  display: none
+}
+
 summary h3 {
 	margin: 0;
 	text-align: center;
